@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+     }
+
+/* Styling the desktop design */
+
+:root{
+    --bk-groundcolor: hsl(0, 0%, 100%);
+    --bk-gr: hsl(212, 45%, 89%);
+    --text: hsl(220, 15%, 55%);
+    --color3: hsl(218, 44%, 22%);
+    --font-size: 15px;
+    --weight: 400;
+    --weight2: 700;
+    --font-family: 'Outfit', sans-serif;
+}
+
+    
+
+body{
+    background-color: var(--bk-gr);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+ 
+    
+}
+
+.container{
+    background-color: var(--bk-groundcolor);
+    justify-content: center;
+    max-width: 280px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flexbox;
+    
+   
+}
+.qr-image{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.p1{
+    color: var(--color3);
+    font-weight: var(--weight2);
+     font-size: 1.2rem;
+}
+.p2{
+    font-size: var(--font-size);
+    font-weight: var(--weight);
+}
+p{
+    font-family: var(--font-family);
+}
+.qr-image img{
+   max-width: 100%;
+    border-radius: 2%;
+}
+.content{
+    text-align: center;
+    justify-content: center;
+    padding: 1.5rem;
+    padding-top: 0;
+
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
